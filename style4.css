@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  transition: 0.6s;
+  background-color: #fff; 
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); 
+}
+header .logo {
+    font-size: 2em;
+    color: #555;
+    cursor: default;
+}
+
+header .logo span {
+    color: #7d2ae8;
+}
+
+header .navigation a {
+    font-size: 1.1em;
+    color: #555;
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: 500;
+    word-spacing: 0.7em;
+    transition: 0.6s;
+}
+
+header .navigation a:hover {
+    color: #7d2ae8;
+}
+
+header .navigation a.active {
+    color: #7d2ae8; 
+}
+
+
+header .btn-talk {
+  font-size: 1.1em;
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 35px;
+  background: #7d2ae8;
+  border-radius: 10px;
+  border: 2px solid #7d2ae8;
+  font-weight: 500;
+  transition: 0.6s;
+}
+
+header .btn-talk:hover {
+  color: #7d2ae8;
+  background: transparent;
+}
+
+.Summary {
+  padding: 30px 100px;
+  margin-top: 130px; 
+}
+
+.Summary h3 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.Summary p {
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+.skills-section {
+  margin-top: 40px; 
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+
+.skills-section h4 {
+  font-size: 1.3em;
+  margin-bottom: 10px;
+}
+
+.skills-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skills-section li {
+  margin-bottom: 5px;
+}

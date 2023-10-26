@@ -1,0 +1,143 @@
+/* Import the Poppins font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Header styles */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  transition: 0.6s;
+  background-color: #fff; 
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+header .logo {
+  font-size: 2em;
+  color: #555;
+  cursor: default;
+}
+
+header .logo span {
+  color: #7d2ae8;
+}
+
+header .navigation a {
+  font-size: 1.1em;
+  color: #555;
+  text-decoration: none;
+  margin-right: 40px;
+  font-weight: 500;
+  word-spacing: 0.7em;
+  transition: 0.6s;
+}
+
+header .navigation a:hover {
+  color: #7d2ae8;
+}
+
+header .navigation a.active {
+  color: #7d2ae8;
+}
+
+
+
+/* Page content styles */
+section.page-content {
+  margin-top: 120px;
+  padding: 30px 100px;
+  background: #f9f9f9;
+}
+
+/* Formatting for content sections */
+div#home,
+div#professional-page,
+div#personality,
+div#personal-development,
+div#storyboard,
+div#reference-page,
+.theme,
+.features {
+  margin-bottom: 40px;
+  padding: 20px;
+  background: #f9f9f9;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
+
+div#home h1,
+div#professional-page h1,
+div#personality h1,
+div#personal-development h1,
+div#storyboard h1,
+div#reference-page h1,
+.theme h1,
+.features h1 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+div#home p,
+div#professional-page p,
+div#personality p,
+div#personal-development p,
+div#storyboard p,
+div#reference-page p,
+.theme p,
+.features ul {
+  font-size: 1.2em;
+  line-height: 1.6;
+  color: #555;
+}
+
+.features li {
+  margin: 10px 0;
+}
+
+.features h1 {
+  font-size: 1.5em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* Layout section styles */
+section.Layout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+  background: #fff;
+}
+
+section.Layout figure {
+  text-align: center;
+  margin: 20px;
+}
+
+section.Layout img {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #7d2ae8;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section.Layout figcaption {
+  font-size: 1em;
+  color: #555;
+  margin-top: 10px;
+}

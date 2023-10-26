@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raul Miller</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2 class="logo"><span>R</span>aul.</h2>
+        <nav class="navigation">
+            <a href="index.html" class="active">Home</a>
+            <a href="ProfessionalPage.html">Professional Page</a>
+            <a href="Personality.html">Personality</a>
+            <a href="PersonalDevelopment.html">Personal Development</a>
+            <a href="Storyboard.html">Storyboard</a>
+            <a href="ReferencePage.html">Reference Page</a>
+        </nav>
+    </header>
+
+    <section class="home">
+        <div class="content">
+            <h2>Hi, I'm <span>Raul Miller</span></h2>
+            <h4>Web Developer</h4>
+            <p>I'm a passionate Website Developer with a knack for turning innovative ideas into reality.</p>
+            <img src="../Assets/Raul.png" alt="Raul Miller" onclick="sendEmail()">
+        </div>
+    </section>
+
+    <script>
+        function sendEmail() {
+            window.location.href = 'mailto:millerraul46@gmail.com?subject=Contact%20Request';
+        }
+    </script>
+</body>
+</html>

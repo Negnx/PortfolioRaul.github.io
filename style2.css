@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Reset and Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header Styles */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    transition: 0.6s;
+    background-color: #fff; 
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+
+header .logo {
+    font-size: 2em;
+    color: #555;
+    cursor: default;
+}
+
+header .logo span {
+    color: #7d2ae8;
+}
+
+header .navigation a {
+    font-size: 1.1em;
+    color: #555;
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: 500;
+    word-spacing: 0.7em;
+    transition: 0.6s;
+}
+
+header .navigation a:hover {
+    color: #7d2ae8;
+}
+
+header .navigation a.active {
+    color: #7d2ae8;
+}
+
+
+header .btn-talk:hover {
+    color: #7d2ae8;
+    background: transparent;
+}
+
+/* Mission-Vision Section */
+.mission-vision {
+    margin-top: 130px;
+    text-align: center;
+}
+
+.mission-vision h3 {
+    font-size: 1.5em;
+    color: #555;
+}
+
+.mission-vision p {
+    font-size: 1.1em;
+    color: #555;
+    margin-top: 10px;
+}
+
+/* Page Styles */
+.page {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 40px 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
+
+/* Heading Styles */
+h1 {
+    font-weight: 300;
+    margin: 5px 0 0;
+    font-size: 32px;
+    color: #7d2ae8;
+    padding: 0 10px 8px;
+    border-radius: 2px;
+}
+
+h2 {
+    color: #7d2ae8;
+    width: 130px;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 0;
+    line-height: 24px;
+}
+
+/* Link Styles */
+a {
+    color: #7d2ae8;
+    display: inline-block;
+    text-decoration: none;
+    padding: 2px 4px;
+    border-radius: 2px;
+    margin-right: -2px;
+}
+
+/* Other Styles */
+.key:first-child {
+    margin-left: 0;
+}
+
+.key {
+    margin: 0 8px;
+    position: relative;
+}
+
+.key::before {
+    content: '◆';
+    position: absolute;
+    left: -12px;
+    color: #555;
+    font-size: 6pt;
+}
+
+.key:first-child::before {
+    content: '';
+}
+
+.section {
+    border-bottom: 1px solid #ddd;
+    padding: 8px 0 12px;
+}
+
+.section:last-child {
+    border: none;
+}
+
+.section-text {
+    width: 80%;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 8px 0 8px;
+    padding: 0 10px;
+}
+
+.subsection {
+    margin: 8px 0 4px;
+}
+
+.desc {
+    font-size: 14px;
+    color: #444;
+}
+
+.contact-info {
+    font-size: 14px;
+    text-align: right;
+}
+
+.light {
+    color: #aaa;
+    letter-spacing: 1px;
+    font-size: 12px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+ul {
+    padding-left: 15px;
+}
+
+ul.skills {
+    float: left;
+    width: 30%;
+    padding-left: 0px;
+    margin: 0 16px 0 0;
+}
+
+ul.skills li {
+    list-style: none;
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+
+ul.skills li:last-child {
+    margin: 0;
+}
+
+/* Float Rules */
+.row:before,
+.row:after {
+    content: "";
+    display: table;
+}
+
+.row:after {
+    clear: both;
+}
+
+.col {
+    float: left;
+}
+
+.col-right {
+    float: right;
+}
